@@ -1,0 +1,12 @@
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\SGI.PI.Data.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\SGI.PI.Data.pdb
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\obj\Debug\SGI.PI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\obj\Debug\SGI.PI.Data.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\obj\Debug\SGI.PI.Data.pdb
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\SGI.PI.Data.dll.config
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\EntityFramework.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\EntityFramework.xml
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\obj\Debug\SGI.PI.Data.csprojAssemblyReference.cache
+C:\Users\Lucas\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\obj\Debug\SGI.PI.Data.csproj.CopyComplete

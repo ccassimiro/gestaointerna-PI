@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F11AC12A-07DF-404C-9CC0-892058DC97D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{0ACC2228-8E19-41BF-A2E3-15F3070FC778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{E13FD0F6-7D4E-49A5-B9F8-320FF744194F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGI.PI.Web", "SGI.PI.Web\SGI.PI.Web.csproj", "{3ACDE6B5-3E05-46FD-A4BD-3BFF99C5BB95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SGI.PI.Data", "SGI.PI.Data\SGI.PI.Data.csproj", "{E304F52E-CD3E-42CF-A400-93B008249560}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3ACDE6B5-3E05-46FD-A4BD-3BFF99C5BB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ACDE6B5-3E05-46FD-A4BD-3BFF99C5BB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ACDE6B5-3E05-46FD-A4BD-3BFF99C5BB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ACDE6B5-3E05-46FD-A4BD-3BFF99C5BB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E304F52E-CD3E-42CF-A400-93B008249560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E304F52E-CD3E-42CF-A400-93B008249560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E304F52E-CD3E-42CF-A400-93B008249560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E304F52E-CD3E-42CF-A400-93B008249560}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ACDE6B5-3E05-46FD-A4BD-3BFF99C5BB95} = {F11AC12A-07DF-404C-9CC0-892058DC97D9}
+		{E304F52E-CD3E-42CF-A400-93B008249560} = {0ACC2228-8E19-41BF-A2E3-15F3070FC778}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4594415-4C67-42BE-9D60-621D3B424333}
+	EndGlobalSection
+EndGlobal
