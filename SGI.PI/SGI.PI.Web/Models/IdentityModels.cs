@@ -21,7 +21,7 @@ namespace SGI.PI.Web.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("SGI", throwIfV1Schema: false)
         {
         }
 
