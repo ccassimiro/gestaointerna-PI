@@ -4,3 +4,9 @@ C:\Users\Victória\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SG
 C:\Users\Victória\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.dll
 C:\Users\Victória\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.pdb
 C:\Users\Victória\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.csprojAssemblyReference.cache
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Service\bin\Debug\SGI.PI.Service.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Service\bin\Debug\SGI.PI.Service.pdb
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.csprojAssemblyReference.cache
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.pdb

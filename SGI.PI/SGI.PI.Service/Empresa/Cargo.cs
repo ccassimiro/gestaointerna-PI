@@ -15,5 +15,10 @@ namespace SGI.PI.Service.Empresa
         public string Nome { get; set; }
         [Required]
         public bool Lideranca { get; set; }
+
+        public static explicit operator Cargo(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -33,5 +33,19 @@ namespace SGI.PI.Service.Membro
         [Required]
         public int SemestreEntradaNaEmpresa { get; set; }
 
+        public Pessoa(string nome, int idade, string sexo, string cpf, string rg, string endereco, string bairro, string cidade, string curso, int semestreAtual, int semestreEntrada)
+        {
+            this.Nome = nome;
+            this.Idade = idade;
+            this.Sexo = sexo;
+            this.CPF = cpf;
+            this.RG = rg;
+            this.Endereco = endereco;
+            this.Bairro = bairro;
+            this.Cidade = cidade;
+            this.Curso = curso;
+            this.SemestreAtual = semestreAtual;
+            this.SemestreEntradaNaEmpresa = semestreEntrada;
+        }
     }
 }

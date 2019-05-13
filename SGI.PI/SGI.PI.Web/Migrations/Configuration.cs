@@ -1,6 +1,6 @@
 namespace SGI.PI.Web.Migrations
 {
-    using SGI.PI.Service.Membro;
+
     using SGI.PI.Web.Models;
     using System;
     using System.Data.Entity;

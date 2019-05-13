@@ -17,5 +17,10 @@ namespace SGI.PI.Service.Empresa
         public string Sigla { get; set; }
         [Required]
         public virtual Departamento Departamento { get; set; }
+
+        public static explicit operator Nucleo(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
