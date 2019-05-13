@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EAC3F106-47E4-4CBD-BA92-57F10924A08A}</ProjectGuid>
+    <ProjectGuid>{FC3393EE-8A24-4C07-B27E-572D50FDB21A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SGI.PI.Service</RootNamespace>
-    <AssemblyName>SGI.PI.Service</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <RootNamespace>SGI.PI.Services</RootNamespace>
+    <AssemblyName>SGI.PI.Services</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -32,7 +32,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,13 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Empresa\Cargo.cs" />
-    <Compile Include="Empresa\Departamento.cs" />
-    <Compile Include="Membro\Membro.cs" />
-    <Compile Include="Membro\MembroHistorico.cs" />
-    <Compile Include="Empresa\Nucleo.cs" />
-    <Compile Include="Membro\Pessoa.cs" />
+    <Compile Include="ImportacaoMembro.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SGI.PI.Data\SGI.PI.Data.csproj">
+      <Project>{e304f52e-cd3e-42cf-a400-93b008249560}</Project>
+      <Name>SGI.PI.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SGI.PI.Service\SGI.PI.Domain.csproj">
+      <Project>{eac3f106-47e4-4cbd-ba92-57f10924a08a}</Project>
+      <Name>SGI.PI.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

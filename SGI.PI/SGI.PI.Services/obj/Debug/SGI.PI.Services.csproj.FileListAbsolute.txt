@@ -1,0 +1,14 @@
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\bin\Debug\SGI.PI.Services.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\bin\Debug\SGI.PI.Services.pdb
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\bin\Debug\SGI.PI.Data.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\bin\Debug\SGI.PI.Service.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\bin\Debug\EntityFramework.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\bin\Debug\SGI.PI.Data.pdb
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\bin\Debug\SGI.PI.Data.dll.config
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\bin\Debug\SGI.PI.Service.pdb
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\bin\Debug\EntityFramework.xml
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\obj\Debug\SGI.PI.Services.csprojAssemblyReference.cache
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\obj\Debug\SGI.PI.Services.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\obj\Debug\SGI.PI.Services.csproj.CopyComplete
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\obj\Debug\SGI.PI.Services.dll
+C:\Users\Lucas\Documents\gestaointerna-PI\gestaointerna-PI\SGI.PI\SGI.PI.Services\obj\Debug\SGI.PI.Services.pdb
