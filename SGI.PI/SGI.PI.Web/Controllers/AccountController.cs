@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Security.Claims;
@@ -8,6 +9,7 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
+using SGI.PI.Service.Membro;
 using SGI.PI.Web.Models;
 
 namespace SGI.PI.Web.Controllers
@@ -140,6 +142,12 @@ namespace SGI.PI.Web.Controllers
         public ActionResult Register()
         {
             return View();
+        }
+
+
+        public ActionResult CriarLogins(List<Membro> Membros)
+        {
+
         }
 
         //
