@@ -31,14 +31,17 @@ namespace SGI.PI.Service.Membro
             //chamando o construtor de pessoa.
             this.Pessoa = new Pessoa(nome, idade, sexo, cpf, rg, endereco, bairro, cidade, curso, semestreAtual, semestreEntrada);
         }
-
-        public void CriarUsuario()
+        
+        //retorna uma lista de usuários a serem criados.
+        public List<Membro> CriarUsuario()
         {
+            var ListaMembros = new List<Membro>();
             if(this.Cargo.Lideranca == true)
             {
-                //Logica para criar um usuário no sistema.
-                //VER C LAPA.
+                ListaMembros.Add(this);
             }
+
+            return ListaMembros;
         }
 
     }

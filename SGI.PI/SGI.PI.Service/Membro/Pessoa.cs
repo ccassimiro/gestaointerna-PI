@@ -32,6 +32,8 @@ namespace SGI.PI.Service.Membro
         public int SemestreAtual { get; set; }
         [Required]
         public int SemestreEntradaNaEmpresa { get; set; }
+        [Required]
+        public string Email { get; set; }
 
         public Pessoa(string nome, int idade, string sexo, string cpf, string rg, string endereco, string bairro, string cidade, string curso, int semestreAtual, int semestreEntrada)
         {
@@ -46,6 +48,7 @@ namespace SGI.PI.Service.Membro
             this.Curso = curso;
             this.SemestreAtual = semestreAtual;
             this.SemestreEntradaNaEmpresa = semestreEntrada;
+            this.Email = Email;
         }
     }
 }

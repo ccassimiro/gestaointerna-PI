@@ -291,6 +291,10 @@
       <Project>{fc3393ee-8a24-4c07-b27e-572d50fdb21a}</Project>
       <Name>SGI.PI.Services</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SGI.PI.Service\SGI.PI.Domain.csproj">
+      <Project>{EAC3F106-47E4-4CBD-BA92-57F10924A08A}</Project>
+      <Name>SGI.PI.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

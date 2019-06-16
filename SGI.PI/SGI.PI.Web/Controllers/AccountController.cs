@@ -145,9 +145,21 @@ namespace SGI.PI.Web.Controllers
         }
 
 
-        public ActionResult CriarLogins(List<Membro> Membros)
+        public void CriarLogins(List<Membro> Membros)
         {
+            foreach(Membro m in Membros)
+            {
+                var password = m.Pessoa.CPF;
+                var email = m.Pessoa.Email;
+                var nome = m.Pessoa.Nome;
+                Registrar(email, password, nome);
+            }
+        }
 
+        public async void Registrar(string email, string password, string nome)
+        {
+            var user = new ApplicationUser { UserName = nome, Email = email };
+            var result = await UserManager.CreateAsync(user, password);
         }
 
         //
