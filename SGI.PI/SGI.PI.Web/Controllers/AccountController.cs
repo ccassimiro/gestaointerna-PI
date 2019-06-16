@@ -144,7 +144,8 @@ namespace SGI.PI.Web.Controllers
             return View();
         }
 
-
+        #region Criação de Usuários Novos no sistema.
+        
         public void CriarLogins(List<Membro> Membros)
         {
             foreach(Membro m in Membros)
@@ -156,11 +157,17 @@ namespace SGI.PI.Web.Controllers
             }
         }
 
+
         public async void Registrar(string email, string password, string nome)
         {
             var user = new ApplicationUser { UserName = nome, Email = email };
             var result = await UserManager.CreateAsync(user, password);
+            if (result.Succeeded)
+            {
+                //pensar em algo para informar que o usuário com username X foi inserido com sucesso.
+            }
         }
+        #endregion
 
         //
         // POST: /Account/Register
