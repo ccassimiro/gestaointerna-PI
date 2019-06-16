@@ -66,10 +66,11 @@ namespace SGI.PI.Services
             foreach(Membro m in Membros)
             {
                 MembroRepository.Adicionar(m);
-                Membros.Remove(m);
                 i++;
             }
             //Colocar ao final uma mensagem de "Foram inseridos I novos membros ao sistema. Atendendo Heurísticas de Nilsen para Ingrid.
+
+
         }
     }
 }
