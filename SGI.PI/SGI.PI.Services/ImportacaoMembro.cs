@@ -69,8 +69,6 @@ namespace SGI.PI.Services
                 i++;
             }
             //Colocar ao final uma mensagem de "Foram inseridos I novos membros ao sistema. Atendendo Heurísticas de Nilsen para Ingrid.
-
-
         }
     }
 }

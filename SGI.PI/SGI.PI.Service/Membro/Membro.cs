@@ -5,6 +5,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SGI.PI.Data.Repository;
+
 
 namespace SGI.PI.Service.Membro
 {
@@ -31,7 +33,7 @@ namespace SGI.PI.Service.Membro
             //chamando o construtor de pessoa.
             this.Pessoa = new Pessoa(nome, idade, sexo, cpf, rg, endereco, bairro, cidade, curso, semestreAtual, semestreEntrada);
         }
-        
+
         //retorna uma lista de usuários a serem criados.
         public List<Membro> CriarUsuario()
         {
@@ -44,5 +46,34 @@ namespace SGI.PI.Service.Membro
             return ListaMembros;
         }
 
+        //Listagem de membros e Edição de membro
+        public List<Membro> ListarTodosMembros()
+        {
+            GenericRepository<Membro> repository = new GenericRepository<Membro>();
+            var ListaMembros = repository.EncontrarTodos().ToList();
+
+            return ListaMembros;
+        }
+
+        public Membro ProcurarMembroPorId(int id)
+        {
+            GenericRepository<Membro> repository = new GenericRepository<Membro>();
+            Membro membro = repository.EncontrarPorID(id);
+
+            return membro;
+
+        }
+
+        public void EditarMembro(Membro membro)
+        {
+            GenericRepository<Membro> repository = new GenericRepository<Membro>();
+            repository.Atualizar(membro);
+        }
+
+        public void RemoverMembro(int id)
+        {
+            GenericRepository<Membro> repository = new GenericRepository<Membro>();
+            repository.Excluir(id);
+        }
     }
 }
