@@ -150,22 +150,43 @@ namespace SGI.PI.Web.Controllers
         {
             foreach(Membro m in Membros)
             {
+                int permissao = 0;
                 var password = m.Pessoa.CPF;
                 var email = m.Pessoa.Email;
                 var nome = m.Pessoa.Nome;
-                Registrar(email, password, nome);
+                var cargo = m.Cargo;
+
+                try
+                {
+                    if (cargo.Equals("DEX"))
+                        permissao = 1;
+                    else if (cargo.Equals("RH"))
+                        permissao = 2;
+                    else if (cargo.Equals("Gerencia"))
+                        permissao = 3;
+                    Registrar(email, password, nome, permissao);
+                } catch(Exception e)
+                {
+                    //Mensagem informando que não foi possivel cadastrar a conta
+                    throw new Exception("Não foi possível criar o usuario. Erro: " + e);
+                }              
             }
         }
 
 
-        public async void Registrar(string email, string password, string nome)
+        public async void Registrar(string email, string password, string nome, int permissao)
         {
             var user = new ApplicationUser { UserName = nome, Email = email };
             var result = await UserManager.CreateAsync(user, password);
             if (result.Succeeded)
             {
-                //pensar em algo para informar que o usuário com username X foi inserido com sucesso.
+                DefinirPermissao(user, permissao);
             }
+        }
+
+        public void DefinirPermissao(ApplicationUser user, int permissao)
+        {
+            user.Roles.Select(a => a.RoleId.Equals(permissao.ToString()));
         }
         #endregion
 
