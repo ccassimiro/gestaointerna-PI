@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SGI.PI.Data.Repository;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -22,5 +23,6 @@ namespace SGI.PI.Service.Empresa
         {
             throw new NotImplementedException();
         }
+
     }
 }

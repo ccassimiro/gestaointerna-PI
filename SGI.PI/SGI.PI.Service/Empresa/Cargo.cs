@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SGI.PI.Data.Repository;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -19,6 +20,12 @@ namespace SGI.PI.Service.Empresa
         public static explicit operator Cargo(string v)
         {
             throw new NotImplementedException();
+        }
+
+        public void InserirCargo(Cargo cargo)
+        {
+            GenericRepository<Cargo> repository = new GenericRepository<Cargo>();
+            repository.Adicionar(cargo);
         }
     }
 }
