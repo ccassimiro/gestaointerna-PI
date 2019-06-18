@@ -229,7 +229,16 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\vue.js" />
+    <Content Include="Scripts\vue.min.js" />
+    <Content Include="src\components\assets\images\button_plus.png" />
+    <Content Include="src\components\assets\images\engrenagem.png" />
+    <Content Include="src\components\assets\images\LOGOTIPO.png" />
+    <Content Include="src\components\router\index.js" />
+    <Content Include="src\components\router\routes.js" />
+    <Content Include="src\store.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -264,6 +273,16 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="src\App.vue" />
+    <Content Include="src\assets\styles\_bootstrap.scss" />
+    <Content Include="src\assets\styles\_variables.scss" />
+    <Content Include="src\components\home.vue" />
+    <Content Include="src\components\importacao.vue" />
+    <Content Include="src\components\listagem-membros.vue" />
+    <Content Include="src\components\login.vue" />
+    <Content Include="src\components\navbar-component.vue" />
+    <Content Include="src\components\people-analytics-forms.vue" />
+    <Content Include="src\components\ver-relatorios.vue" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

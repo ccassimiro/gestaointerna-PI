@@ -5,7 +5,6 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using SGI.PI.Data.Repository;
 
 
 namespace SGI.PI.Service.Membro
@@ -46,34 +45,34 @@ namespace SGI.PI.Service.Membro
             return ListaMembros;
         }
 
-        //Listagem de membros e Edição de membro
-        public List<Membro> ListarTodosMembros()
-        {
-            GenericRepository<Membro> repository = new GenericRepository<Membro>();
-            var ListaMembros = repository.EncontrarTodos().ToList();
+        ////Listagem de membros e Edição de membro
+        //public List<Membro> ListarTodosMembros()
+        //{
+        //    GenericRepository<Membro> repository = new GenericRepository<Membro>();
+        //    var ListaMembros = repository.EncontrarTodos().ToList();
 
-            return ListaMembros;
-        }
+        //    return ListaMembros;
+        //}
 
-        public Membro ProcurarMembroPorId(int id)
-        {
-            GenericRepository<Membro> repository = new GenericRepository<Membro>();
-            Membro membro = repository.EncontrarPorID(id);
+        //public Membro ProcurarMembroPorId(int id)
+        //{
+        //    GenericRepository<Membro> repository = new GenericRepository<Membro>();
+        //    Membro membro = repository.EncontrarPorID(id);
 
-            return membro;
+        //    return membro;
 
-        }
+        //}
 
-        public void EditarMembro(Membro membro)
-        {
-            GenericRepository<Membro> repository = new GenericRepository<Membro>();
-            repository.Atualizar(membro);
-        }
+        //public void EditarMembro(Membro membro)
+        //{
+        //    GenericRepository<Membro> repository = new GenericRepository<Membro>();
+        //    repository.Atualizar(membro);
+        //}
 
-        public void RemoverMembro(int id)
-        {
-            GenericRepository<Membro> repository = new GenericRepository<Membro>();
-            repository.Excluir(id);
-        }
+        //public void RemoverMembro(int id)
+        //{
+        //    GenericRepository<Membro> repository = new GenericRepository<Membro>();
+        //    repository.Excluir(id);
+        //}
     }
 }

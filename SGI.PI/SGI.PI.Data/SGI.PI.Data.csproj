@@ -73,7 +73,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\SGI.PI.Service\SGI.PI.Domain.csproj">
       <Project>{eac3f106-47e4-4cbd-ba92-57f10924a08a}</Project>

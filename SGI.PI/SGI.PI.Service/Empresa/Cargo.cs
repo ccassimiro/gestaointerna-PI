@@ -1,5 +1,4 @@
-﻿using SGI.PI.Data.Repository;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -22,10 +21,5 @@ namespace SGI.PI.Service.Empresa
             throw new NotImplementedException();
         }
 
-        public void InserirCargo(Cargo cargo)
-        {
-            GenericRepository<Cargo> repository = new GenericRepository<Cargo>();
-            repository.Adicionar(cargo);
-        }
     }
 }

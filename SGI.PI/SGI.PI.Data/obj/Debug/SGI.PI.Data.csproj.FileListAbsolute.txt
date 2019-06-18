@@ -71,3 +71,8 @@ C:\Users\INTS\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate
 C:\Users\INTS\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate.FluentMigrator.dll
 C:\Users\INTS\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\Iesi.Collections.xml
 C:\Users\INTS\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate.xml
+C:\Users\lcass\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\Iesi.Collections.dll
+C:\Users\lcass\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate.dll
+C:\Users\lcass\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate.FluentMigrator.dll
+C:\Users\lcass\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\Iesi.Collections.xml
+C:\Users\lcass\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate.xml
