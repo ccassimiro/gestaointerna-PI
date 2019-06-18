@@ -283,6 +283,7 @@
     <Content Include="src\components\navbar-component.vue" />
     <Content Include="src\components\people-analytics-forms.vue" />
     <Content Include="src\components\ver-relatorios.vue" />
+    <Content Include="Views\TelasSistema\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

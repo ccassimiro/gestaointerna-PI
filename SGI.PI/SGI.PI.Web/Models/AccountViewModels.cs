@@ -62,6 +62,14 @@ namespace SGI.PI.Web.Models
         public bool RememberMe { get; set; }
     }
 
+    public class NewLoginViewModel
+    {
+        [Required]
+        public string Email { get; set; }
+        [Required]
+        public string Password { get; set; }
+    }
+
     public class RegisterViewModel
     {
         [Required]

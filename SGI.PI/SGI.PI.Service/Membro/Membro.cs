@@ -34,45 +34,15 @@ namespace SGI.PI.Service.Membro
         }
 
         //retorna uma lista de usuários a serem criados.
-        public List<Membro> CriarUsuario()
-        {
-            var ListaMembros = new List<Membro>();
-            if(this.Cargo.Lideranca == true)
-            {
-                ListaMembros.Add(this);
-            }
-
-            return ListaMembros;
-        }
-
-        ////Listagem de membros e Edição de membro
-        //public List<Membro> ListarTodosMembros()
+        //public List<Membro> CriarUsuario()
         //{
-        //    GenericRepository<Membro> repository = new GenericRepository<Membro>();
-        //    var ListaMembros = repository.EncontrarTodos().ToList();
+        //    var ListaMembros = new List<Membro>();
+        //    if (this.Cargo.Lideranca == true)
+        //    {
+        //        ListaMembros.Add(this);
+        //    }
 
         //    return ListaMembros;
-        //}
-
-        //public Membro ProcurarMembroPorId(int id)
-        //{
-        //    GenericRepository<Membro> repository = new GenericRepository<Membro>();
-        //    Membro membro = repository.EncontrarPorID(id);
-
-        //    return membro;
-
-        //}
-
-        //public void EditarMembro(Membro membro)
-        //{
-        //    GenericRepository<Membro> repository = new GenericRepository<Membro>();
-        //    repository.Atualizar(membro);
-        //}
-
-        //public void RemoverMembro(int id)
-        //{
-        //    GenericRepository<Membro> repository = new GenericRepository<Membro>();
-        //    repository.Excluir(id);
         //}
     }
 }
