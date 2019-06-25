@@ -1,22 +1,31 @@
-﻿
+﻿@model SGI.PI.Web.Models.ImportacaoViewModel
+@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Importação";
+}
+
 <div>
     <div class="container main-container">
         <div class="txt-align">
             <h3>Importação</h3>
             <div class="line"></div>
             <div class="space-line"> </div>
-            @using (Html.BeginForm("Importar", "Importacao", FormMethod.Post))
+            @using (Html.BeginForm("Importar", "Importacao", FormMethod.Post, new { enctype = "multipart/form-data" }))
             {
+                @Html.TextBoxFor(m => m.Arquivo, new { type = "file" })
+                <p></p>
+                <button type="submit" class="btn-add-import-name">Adicionar</button>
+                <button type="submit" class="btn-add-import"></button>
+
                 <div class="col-sm-12">
+
                     <div class="table-responsive">
                         <table class="table">
                             <thead>
                                 <tr>
                                     <th>
-                                        <input type="file">
                                     </th>
                                     <th>
-                                        <button type="submit" class="btn-add-import"> </button>
 
                                     </th>
                                 </tr>
@@ -127,6 +136,16 @@
     .btn-add-import {
         background: url(../assets/plus-sign.png) no-repeat;
         background-size: 20px 20px;
+        width: 20px;
+        height: 20px;
+        border: none;
+        display: inline-block;
+        margin-left: 60px;
+    }
+
+    .btn-add-import-name {
+        background-color: white;
+        background-size: 70px 20px;
         width: 20px;
         height: 20px;
         border: none;

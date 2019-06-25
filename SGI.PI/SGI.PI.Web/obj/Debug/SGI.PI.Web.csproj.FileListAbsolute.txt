@@ -741,3 +741,4 @@ C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Web\obj
 C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Web\obj\Debug\SGI.PI.Web.csproj.CopyComplete
 C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Web\obj\Debug\SGI.PI.Web.dll
 C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Web\obj\Debug\SGI.PI.Web.pdb
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Web\bin\Microsoft.Web.Mvc.dll

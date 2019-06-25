@@ -21,20 +21,29 @@
             <section id="loginForm">
                 @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
                 {
-                    <div class="form-group">
-                        <label for="exampleInputEmail1" class="form-login">Email </label>
-                        @Html.TextBoxFor(a => a.Email)
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1" class="form-login">Senha</label>
-                        @Html.TextBoxFor(a => a.Password, new { @type = "password" })
-                    </div>
-                    <input type="submit" value="Buscar" class="btn btn-c1" id="btnLogin">
+                <div class="form-group">
+                    <label for="exampleInputEmail1" class="form-login">Email   </label>
+                    @Html.TextBoxFor(a => a.Email)
+                    <br />
+                    <br />
+                    <label for="exampleInputPassword1" class="form-login">Senha   </label>
+                    @Html.TextBoxFor(a => a.Password, new { @type = "password" })
+                </div>
+                   
+                    <input type="submit" value="Login"   id="btnLogin">
                 }
             </section>
         </div>
     </div>
     <div class="container body-content">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - Sistema de Gestão Interna CIMATEC Jr.</p>
@@ -72,8 +81,13 @@
         color: #000000;
     }
 
-    .btn .btn-light .btn-login {
-        margin-right: 200px;
-        align-self: right;
+    #btnLogin {
+        font-size: 15px;
+        background-color: #becde5;
+        background-size: 100px 40px;
+        border-radius:15px;
+        border: none;
+        margin-left: 200px;
+        margin-top: 20px;
     }
 </style>

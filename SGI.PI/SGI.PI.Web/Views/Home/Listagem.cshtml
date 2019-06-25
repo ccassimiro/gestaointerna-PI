@@ -1,0 +1,94 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Membros";
+
+}
+
+<div class="container main-container">
+    <div class="txt-align">
+    <h3>
+        Membros Cadastrados
+    </h3>
+    <div class="line"></div>
+    <div class="space-line"> </div>
+        <div>
+            <div class="list list-page">
+                <div href="" class="item-membro">
+                    <div class="header">
+                        <strong>FULANO DE TAL</strong>
+                    </div>
+                    <div class="content">
+                        Núcleo: NPCP
+                    </div>
+                </div>
+            </div>
+        </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />  
+</div>
+</div>
+
+<style>
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        font-family: 'Noto Sans HK', sans-serif;
+    }
+
+    body {
+        background-color: #becde5;
+        background-size: 100%;
+        background-attachment: fixed;
+    }
+
+
+    .main-container {
+        max-width: 1200px;
+        height: 520px;
+        margin-top: 10px;
+        text-align: center;
+        display: inline-block;
+        background-color: white;
+    }
+
+
+    .txt-align {
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .line {
+        max-width: 1150px;
+        height: 17px;
+        border-bottom: 5px solid #becde5;
+        position: relative;
+    }
+
+    .space-line {
+        max-width: 1150px;
+        height: 20px;
+        position: relative;
+    }
+
+    .item-membro {
+        background-color: #becde5;
+        border-radius: 10px;
+    }
+
+    .header{
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .content{
+        margin-left: 10px;
+        font-size: 10px;
+        font-style:italic;
+    }
+</style>

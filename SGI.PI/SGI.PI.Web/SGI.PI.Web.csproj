@@ -47,6 +47,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Mvc, Version=5.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.Futures.5.0.0\lib\net40\Microsoft.Web.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -195,6 +198,7 @@
     <Compile Include="Migrations\CreateTablesMigration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ImportacaoViewModel.cs" />
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -279,12 +283,13 @@
     <Content Include="src\components\ver-relatorios.vue" />
     <Content Include="Views\Account\Login.1.cshtml" />
     <Content Include="Views\Home\ImportacaoMembros.cshtml" />
-    <Content Include="Views\Membros\Listagem.cshtml" />
+    <Content Include="Views\Home\Listagem.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Importacao\" />
+    <Folder Include="Views\Membros\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
