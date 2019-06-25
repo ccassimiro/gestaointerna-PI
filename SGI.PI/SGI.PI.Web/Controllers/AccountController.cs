@@ -63,6 +63,12 @@ namespace SGI.PI.Web.Controllers
             return View();
         }
 
+        public ActionResult LoginTeste(string returnUrl)
+        {
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
         //
         // POST: /Account/Login
         [HttpPost]

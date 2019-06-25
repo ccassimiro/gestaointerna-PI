@@ -51,5 +51,11 @@
     <Compile Include="Membro\Pessoa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SGI.PI.Data\SGI.PI.Data.csproj">
+      <Project>{e304f52e-cd3e-42cf-a400-93b008249560}</Project>
+      <Name>SGI.PI.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
