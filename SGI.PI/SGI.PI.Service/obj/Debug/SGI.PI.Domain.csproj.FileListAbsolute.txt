@@ -15,3 +15,9 @@ C:\Users\INTS\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.
 C:\Users\INTS\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Domain.csproj.CoreCompileInputs.cache
 C:\Users\INTS\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.dll
 C:\Users\INTS\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.pdb
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Service\bin\Debug\SGI.PI.Service.dll
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Service\bin\Debug\SGI.PI.Service.pdb
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Domain.csprojAssemblyReference.cache
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.dll
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Service\obj\Debug\SGI.PI.Service.pdb

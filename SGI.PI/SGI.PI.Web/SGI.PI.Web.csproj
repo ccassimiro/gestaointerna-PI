@@ -169,6 +169,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ImportacaoController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -194,11 +195,16 @@
     <Compile Include="Migrations\CreateTablesMigration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\button_plus.png" />
+    <Content Include="assets\engrenagem.png" />
+    <Content Include="assets\LOGOTIPO.png" />
+    <Content Include="assets\plus-sign.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -271,11 +277,14 @@
     <Content Include="src\components\navbar-component.vue" />
     <Content Include="src\components\people-analytics-forms.vue" />
     <Content Include="src\components\ver-relatorios.vue" />
+    <Content Include="Views\Account\Login.1.cshtml" />
+    <Content Include="Views\Home\ImportacaoMembros.cshtml" />
+    <Content Include="Views\Membros\Listagem.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\ImportacaoMembros.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Importacao\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

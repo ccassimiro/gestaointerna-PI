@@ -76,3 +76,22 @@ C:\Users\lcass\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernat
 C:\Users\lcass\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate.FluentMigrator.dll
 C:\Users\lcass\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\Iesi.Collections.xml
 C:\Users\lcass\Documents\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate.xml
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\SGI.PI.Data.dll.config
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\SGI.PI.Data.dll
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\SGI.PI.Data.pdb
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\EntityFramework.dll
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\Iesi.Collections.dll
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate.dll
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate.FluentMigrator.dll
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\SGI.PI.Service.dll
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\SGI.PI.Service.pdb
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\EntityFramework.xml
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\Iesi.Collections.xml
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\bin\Debug\NHibernate.xml
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\obj\Debug\SGI.PI.Data.csprojAssemblyReference.cache
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\obj\Debug\SGI.PI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\obj\Debug\SGI.PI.Data.csproj.CopyComplete
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\obj\Debug\SGI.PI.Data.dll
+C:\Users\Victória\Documents\olha a merda\gestaointerna-PI\SGI.PI\SGI.PI.Data\obj\Debug\SGI.PI.Data.pdb

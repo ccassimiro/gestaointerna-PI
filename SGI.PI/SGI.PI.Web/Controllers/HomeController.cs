@@ -10,7 +10,7 @@ namespace SGI.PI.Web.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View("ImportacaoMembros");
         }
 
         public ActionResult About()

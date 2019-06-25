@@ -1,32 +1,47 @@
-﻿@using SGI.PI.Web.Models
-@model LoginViewModel
+﻿
+@model SGI.PI.Web.Models.LoginViewModel
 
-<div id="card-login" class="card">
-    <div class="card-body">
-        <img src="./assets/images/LOGOTIPO.png" class="card-img-top text-center" alt="Logotipo da CIMATECJr">
-        <h5 class="card-title">SISTEMA DE GESTÃO INTERNA</h5>
-        <section id="loginForm">
-        @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-        {
-                <div class="form-group">
-                    <label for="exampleInputEmail1" class="form-login">Email </label>
-                    @Html.TextBoxFor(a => a.Email)
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1" class="form-login">Senha</label>
-                    @Html.TextBoxFor(a => a.Password, new { @type="password"})
-                </div>
-                <input type="submit" value="Buscar" class="btn btn-c1" id="btnLogin">
-        }
-        </section>
+@{
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div id="card-login" class="card">
+        <div class="card-body">
+            <img src="../assets/LOGOTIPO.png" class="card-img-top text-center" alt="Logotipo da CIMATECJr">
+            <h5 class="card-title">SISTEMA DE GESTÃO INTERNA</h5>
+            <section id="loginForm">
+                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    <div class="form-group">
+                        <label for="exampleInputEmail1" class="form-login">Email </label>
+                        @Html.TextBoxFor(a => a.Email)
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1" class="form-login">Senha</label>
+                        @Html.TextBoxFor(a => a.Password, new { @type = "password" })
+                    </div>
+                    <input type="submit" value="Buscar" class="btn btn-c1" id="btnLogin">
+                }
+            </section>
+        </div>
     </div>
-</div>
-
- 
-<script>
-
-</script>
-
+    <div class="container body-content">
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Sistema de Gestão Interna CIMATEC Jr.</p>
+        </footer>
+    </div>
+</body>
+</html>
 
 <style>
 
