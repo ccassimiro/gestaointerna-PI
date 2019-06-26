@@ -16,5 +16,11 @@ namespace SGI.PI.Services
         {
             CargoRepository.Adicionar(cargo);
         }
+
+        public Cargo BuscarPorSigla(string sigla)
+        {
+            var Cargo = CargoRepository.EncontrarPorSigla(sigla);
+            return Cargo;
+        }
     }
 }

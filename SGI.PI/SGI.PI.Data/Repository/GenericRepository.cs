@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SGI.PI.Service.Empresa;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -44,6 +45,11 @@ namespace SGI.PI.Data.Repository
         {
             return contexto.Set<TEntity>().Find(id);
 
+        }
+
+        public Cargo EncontrarPorSigla(string sigla)
+        {
+            return contexto.Set<Cargo>().Where(a => a.Nome == sigla).FirstOrDefault();
         }
 
         public IList<TEntity> EncontrarTodos()

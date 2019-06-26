@@ -291,6 +291,7 @@
     <Content Include="Views\Home\ImportacaoMembros.cshtml" />
     <Content Include="Views\Importacao\Listagem.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="teste\tt.csv" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

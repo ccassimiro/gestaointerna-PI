@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="CargoServices.cs" />
     <Compile Include="MembroServices.cs" />
+    <Compile Include="NucleoServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

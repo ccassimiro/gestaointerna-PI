@@ -36,12 +36,12 @@ namespace SGI.PI.Web.Controllers
                 //if (upload != null && upload.ContentLength > 0)
                 //{
 
-                //        if (upload.FileName.EndsWith(".csv"))
+                //    if (upload.FileName.EndsWith(".csv"))
                 //    {
                 //        Stream stream = upload.InputStream;
                 //        DataTable csvTable = new DataTable();
                 //        using (CsvReader csvReader =
-                //            new CsvReader(new StreamReader(stream), true))
+                //            new CsvReader(new StreamReader(stream)))
                 //        {
                 //            var csv = csvReader.ToString();
                 //            //csvTable.Load(csvReader);
@@ -49,19 +49,11 @@ namespace SGI.PI.Web.Controllers
                 //    }
                 //}
 
-                using (StreamReader sr = new StreamReader(upload.ToString()))
+                using (var reader = new StreamReader("/teste/tt.csv"))
+                using (var csv = new CsvReader(reader))
                 {
-                    string line;
-                    List<String> total = null;
-                    // Read and display lines from the file until the end of 
-                    // the file is reached.
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        total.Add(line);
-                    }
+                    var records = csv.ToString();
                 }
-
-
 
             }
 
@@ -71,8 +63,8 @@ namespace SGI.PI.Web.Controllers
         public List<Membro> ReceberMembrosCSV(HttpPostedFileBase Arquivo)
         {
             MembroServices membro = new MembroServices();
-            //membro.ImportarMembrosCSV(Arquivo.ToString());
-            var membros = Upload(Arquivo);
+            membro.ImportarMembrosCSV(Arquivo.ToString());
+            //var membros = Upload(Arquivo);
 
             return membro.ListaMembrosParaInserir;
         }

@@ -13,12 +13,19 @@ namespace SGI.PI.Services
     public class MembroServices
     {
         public GenericRepository<Membro> MembroRepository { get; set; }
+        public GenericRepository<Nucleo> NucleoRepository { get; set; }
+        public GenericRepository<Cargo> CargoRepository { get; set; }
         public List<Membro> ListaMembrosParaInserir { get; set; }
+
+        public MembroServices()
+        {
+            ListaMembrosParaInserir = null;
+        }
 
         //Criar método para importação de membro.
         public void ImportarMembrosCSV(string caminho)
         {
-            StreamReader rd = new StreamReader(caminho);
+            StreamReader rd = new StreamReader("/teste/testeCad.csv");
             string linha = null;
             string[] linhaSeparada = null;
 
@@ -27,6 +34,9 @@ namespace SGI.PI.Services
                 while ((linha = rd.ReadLine()) != null)
                 {
                     linhaSeparada = linha.Split(';');
+
+                    if (linhaSeparada[0].Equals("NOME"))
+                        continue;
 
                     var Nome = linhaSeparada[0];
                     var Idade = Convert.ToInt32(linhaSeparada[1]);
@@ -39,14 +49,33 @@ namespace SGI.PI.Services
                     var Curso = linhaSeparada[8];
                     var SemestreAtual = Convert.ToInt32(linhaSeparada[9]);
                     var SemestreEntrada = Convert.ToInt32(linhaSeparada[10]);
-                    var SiglaNueclo = (Nucleo)linhaSeparada[11];
-                    var Cargo = (Cargo)linhaSeparada[12];
+                    var SiglaNucleo = linhaSeparada[11];
+                    var Cargo = linhaSeparada[12];
                     var Lideranca = linhaSeparada[13];
+                    var Email = linhaSeparada[14];
 
-                    Membro m = new Membro(Nome, Idade, Sexo, CPF, RG, Endereco, Bairro, Cidade, Curso, SemestreAtual, SemestreEntrada, SiglaNueclo, Cargo);
+                    Cargo CargoIns = new Service.Empresa.Cargo();
+                    CargoIns.Id = 1;
+                    CargoIns.Nome = "Gerente";
+                    CargoIns.Lideranca = true;
+                    //var CargoIns = CargoRepository.EncontrarPorSigla(Cargo);
+                    Nucleo NucleoIns = new Nucleo();
+                    NucleoIns.Id = 1;
+                    NucleoIns.Nome = "Nucleo de Projetos de Computação";
+                    NucleoIns.Sigla = "NPCP";
+                    Departamento dep = new Departamento();
+                    dep.Id = 3;
+                    dep.Nome = "Departamento de Projetos";
+                    dep.Sigla = "DPJ";
+                    NucleoIns.Departamento = dep;
+                    //var NucleoIns = NucleoRepository.EncontrarPorSigla(SiglaNucleo);
+
+
+                    Membro m = new Membro(Nome, Idade, Sexo, CPF, RG, Endereco, Bairro, Cidade, Curso, SemestreAtual, SemestreEntrada, NucleoIns, CargoIns, Email);
                     //Adiciona os membros em uma lista, para ao final do processo ser conferido em tela. Caso seja aceito, chamará o método abaixo que realizará
                     //a inserção de maneira correta (atendendo o que foi proposto para Ingrid). Criar um método para validar a inserção
-                    ListaMembrosParaInserir.Add(m);
+                    //ListaMembrosParaInserir.Add(m);
+                    MembroRepository.Adicionar(m);
 
                     
                 }

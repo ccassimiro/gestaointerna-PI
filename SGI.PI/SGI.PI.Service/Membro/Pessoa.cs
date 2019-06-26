@@ -35,7 +35,7 @@ namespace SGI.PI.Service.Membro
         [Required]
         public string Email { get; set; }
 
-        public Pessoa(string nome, int idade, string sexo, string cpf, string rg, string endereco, string bairro, string cidade, string curso, int semestreAtual, int semestreEntrada)
+        public Pessoa(string nome, int idade, string sexo, string cpf, string rg, string endereco, string bairro, string cidade, string curso, int semestreAtual, int semestreEntrada, string Email)
         {
             this.Nome = nome;
             this.Idade = idade;

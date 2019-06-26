@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SGI.PI.Service.Empresa;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,5 +16,6 @@ namespace SGI.PI.Data.Repository
         void Atualizar(TEntity objeto);
         TEntity EncontrarPorID(int id);
         IList<TEntity> EncontrarTodos();
+        Cargo EncontrarPorSigla(string sigla);
     }
 }

@@ -24,13 +24,13 @@ namespace SGI.PI.Service.Membro
         public virtual Pessoa Pessoa { get; set; }
 
 
-        public Membro(string nome, int idade, string sexo, string cpf, string rg, string endereco, string bairro, string cidade, string curso, int semestreAtual, int semestreEntrada, Nucleo siglaNucleo, Cargo cargo)
+        public Membro(string nome, int idade, string sexo, string cpf, string rg, string endereco, string bairro, string cidade, string curso, int semestreAtual, int semestreEntrada, Nucleo siglaNucleo, Cargo cargo, string email)
         {
 
             this.Cargo = cargo;
             this.Nucleo = siglaNucleo;
             //chamando o construtor de pessoa.
-            this.Pessoa = new Pessoa(nome, idade, sexo, cpf, rg, endereco, bairro, cidade, curso, semestreAtual, semestreEntrada);
+            this.Pessoa = new Pessoa(nome, idade, sexo, cpf, rg, endereco, bairro, cidade, curso, semestreAtual, semestreEntrada, email);
         }
 
         //retorna uma lista de usuários a serem criados.
