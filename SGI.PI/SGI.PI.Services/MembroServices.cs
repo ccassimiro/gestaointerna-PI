@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace SGI.PI.Services
 {
-    class MembroServices
+    public class MembroServices
     {
         public GenericRepository<Membro> MembroRepository { get; set; }
         public List<Membro> ListaMembrosParaInserir { get; set; }

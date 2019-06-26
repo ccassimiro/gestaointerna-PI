@@ -12,7 +12,7 @@ namespace SGI.PI.Web.Models
     {
         [Required, Microsoft.Web.Mvc.FileExtensions(Extensions = "csv",
             ErrorMessage = "Por favor, insira um arquivo no formato CSV.")]
-        public string Arquivo { get; set; }
+        public HttpPostedFileBase Arquivo { get; set; }
 
         
     }
