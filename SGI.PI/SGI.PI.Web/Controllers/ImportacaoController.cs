@@ -33,21 +33,36 @@ namespace SGI.PI.Web.Controllers
             if (ModelState.IsValid)
             {
 
-                if (upload != null && upload.ContentLength > 0)
-                {
+                //if (upload != null && upload.ContentLength > 0)
+                //{
 
-                    if (upload.FileName.EndsWith(".csv"))
+                //        if (upload.FileName.EndsWith(".csv"))
+                //    {
+                //        Stream stream = upload.InputStream;
+                //        DataTable csvTable = new DataTable();
+                //        using (CsvReader csvReader =
+                //            new CsvReader(new StreamReader(stream), true))
+                //        {
+                //            var csv = csvReader.ToString();
+                //            //csvTable.Load(csvReader);
+                //        }
+                //    }
+                //}
+
+                using (StreamReader sr = new StreamReader(upload.ToString()))
+                {
+                    string line;
+                    List<String> total = null;
+                    // Read and display lines from the file until the end of 
+                    // the file is reached.
+                    while ((line = sr.ReadLine()) != null)
                     {
-                        Stream stream = upload.InputStream;
-                        DataTable csvTable = new DataTable();
-                        using (CsvReader csvReader =
-                            new CsvReader(new StreamReader(stream), true))
-                        {
-                            var csv = csvReader.ToString();
-                            //csvTable.Load(csvReader);
-                        }
+                        total.Add(line);
                     }
                 }
+
+
+
             }
 
             return membros;
