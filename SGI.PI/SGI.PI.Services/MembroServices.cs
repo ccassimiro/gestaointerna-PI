@@ -20,6 +20,7 @@ namespace SGI.PI.Services
         public MembroServices()
         {
             ListaMembrosParaInserir = null;
+            MembroRepository = new GenericRepository<Membro>();
         }
 
         //Criar método para importação de membro.
@@ -75,7 +76,7 @@ namespace SGI.PI.Services
                     //Adiciona os membros em uma lista, para ao final do processo ser conferido em tela. Caso seja aceito, chamará o método abaixo que realizará
                     //a inserção de maneira correta (atendendo o que foi proposto para Ingrid). Criar um método para validar a inserção
                     //ListaMembrosParaInserir.Add(m);
-                    MembroRepository.Adicionar(m);
+                    //MembroRepository.Adicionar(m);
 
                     
                 }

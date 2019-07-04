@@ -42,6 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CargoServices.cs" />
+    <Compile Include="Exportacao\ExportacaoArquivos.cs" />
+    <Compile Include="Exportacao\ExportarCSV.cs" />
+    <Compile Include="Exportacao\ExportarTXT.cs" />
+    <Compile Include="Exportacao\IGeradorArquivos.cs" />
     <Compile Include="MembroServices.cs" />
     <Compile Include="NucleoServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

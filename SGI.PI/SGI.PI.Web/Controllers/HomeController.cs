@@ -31,7 +31,7 @@ namespace SGI.PI.Web.Controllers
         [HttpPost]
         public ActionResult Importar(ImportacaoViewModel model)
         {
-            return View("ListagemMembros");
+            return View("Listagem");
         }
     }
 }
